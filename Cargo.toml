@@ -3,6 +3,11 @@ name = "js_arc"
 version = "0.1.0"
 edition = "2021"
 license = "MIT"
+description = "A Send + Sync abstraction for JsValue in WASM"
+homepage = "https://github.com/63b8e7lmk1jv9c0ovus4hqkcasqgp0ed/JsArc"
+readme = "README.md"
+repository = "https://github.com/63b8e7lmk1jv9c0ovus4hqkcasqgp0ed/JsArc"
+keywords = ["wasm", "JsValue"]
 
 [lib]
 crate-type = ["cdylib", "rlib"]
