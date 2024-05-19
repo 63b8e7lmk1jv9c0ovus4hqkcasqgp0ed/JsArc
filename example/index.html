@@ -1,0 +1,22 @@
+<!doctype html>
+
+<html lang="en">
+    <head>
+        <meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
+    </head>
+    <body>
+        View the console to see the execution
+        <script type="module">
+            import init, { example } from './pkg/js_arc_tests.js';
+
+            async function run() {
+                await init();
+
+                // The example function exists but it is commented out here and in rust.
+                await example();
+            }
+
+            run();
+        </script>
+    </body>
+</html>
